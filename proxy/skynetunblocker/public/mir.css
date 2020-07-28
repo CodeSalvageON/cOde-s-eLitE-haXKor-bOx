@@ -1,0 +1,65 @@
+body{
+  background-image:url('https://i.pinimg.com/originals/7f/9a/50/7f9a50b6deb9932905590bf7830859fb.jpg');
+  background-size:cover;
+}
+
+h1{
+  color:antiquewhite;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h2{
+  color:powderblue;
+  font-family: 'Exo 2', sans-serif;
+}
+
+button{
+  border-radius:20px;
+  border: 2px solid grey;
+  background-color:red;
+}
+
+button:hover{
+  cursor:pointer;
+  padding:5px;
+}
+
+a{
+  color:aquamarine;
+}
+
+a:visited{
+  color:aquamarine;
+}
+
+#url{
+  border-radius:20px;
+  border: 2px solid red;
+}
+
+#url-go{
+  border-radius:20px;
+  border: 2px solid purple;
+  background-color:purple;
+}
+
+#url-go:hover{
+  cursor:pointer;
+}
+
+#active-proxies{
+  position:fixed;
+  float:left;
+  top:0;
+}
+
+#chat{
+  position:fixed;
+  float:right;
+  right:0;
+  top:0;
+}
+
+.title-text{
+  text-align: center;
+}
