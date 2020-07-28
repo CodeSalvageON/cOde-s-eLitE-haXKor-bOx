@@ -1,0 +1,32 @@
+<html>
+	<style>
+    </style>
+	<head>
+		<link rel="shortcut icon" href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap" rel="stylesheet"> 
+		<title>MIR Proxy</title>
+	</head>
+	<body>
+    <div id="topbar"><h1></h1></div>
+		<h1 class="title-text">MIR Proxy</h1>
+		<link rel="stylesheet" href="./mir.css">
+    <div id="active-proxies">
+      <h1>Command Dashboard</h1>
+      <h2><button onclick="replaceTabHistory()">[REPLACE]</button> Tab and History</h2>
+      <h2><button onclick="replaceTab()">[REPLACE]</button> Tab only</h2>
+      <h2><button onclick="changeTitle()">[CHANGE]</button> Title</h2>
+      <h2><button onclick="newTab()">[OPEN]</button> New Tab</h2>
+      <h2><button onclick="location='index.html';">[SWITCH]</button> Proxy</h2>
+    </div>
+		<div>
+      <center><button onclick="mir()">Enter URL</button></center>
+		</div>
+    <br/>
+    <div id="chat">
+      <iframe src="https://proxychat.codesalvageon.repl.co" frameBorder="0" width="300" height="300"></iframe>
+    </div>
+
+    <script src="noinspect.js"></script>
+    <script src="client.js"></script>
+	</body>
+</html>
